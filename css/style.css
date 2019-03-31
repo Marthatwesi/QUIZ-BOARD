@@ -45,6 +45,11 @@ h1{
 }
 .intro{
   font-size: 30px;
-  font-family: 'Dancing Script', cursive;
-  color:fffff;
+  font-family: 'Josefin Slab', serif;
 }
+}
+#submit {
+  text-align: center;
+}
+#retake {
+  text-align: center;
