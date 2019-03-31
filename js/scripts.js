@@ -28,3 +28,8 @@ $("input[type='button']").click(function(){
          var questions = parseInt($("input[name=" + arr[index] + "]:checked").val());
          arr2.push(questions);
          }
+         //total of the checked values collected
+         var total = 0;
+         for (var index = 0; index < arr2.length; index += 1) {
+           total += arr2[index];
+         }
