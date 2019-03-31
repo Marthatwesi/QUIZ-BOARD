@@ -6,3 +6,10 @@ $("input[type='button']").click(function(){
   query = "quiz"+i;
   arr.push(query);
   }
+  //Do a form validation to check if all the questions have been answered
+    var inputs = document.getElementById("quiz").elements;
+       var count  = 0;
+       for (var i = 0; i < inputs.length; i++) {
+           if (inputs[i].type == 'radio' && inputs[i].checked) {
+               count++;
+           }
