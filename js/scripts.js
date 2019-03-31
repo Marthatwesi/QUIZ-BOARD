@@ -1,6 +1,6 @@
 $(document).ready(function(){
 $("input[type='button']").click(function(){
-//create an array for storing name ie quiz1 to quiz10
+//array for storing name ie quiz1 to quiz10 created
   arr = [];
   for (i = 1; i <= 10; i++) {
   query = "quiz"+i;
@@ -22,7 +22,7 @@ $("input[type='button']").click(function(){
           alert("You have answered all the questions,,,yyoooooo :)");
         }
 
-        //Create an array for storing the checked values
+        //an array for storing the checked boxes created
          arr2=[];
          for (var index = 0; index < arr.length; index += 1) {
          var questions = parseInt($("input[name=" + arr[index] + "]:checked").val());
