@@ -13,3 +13,11 @@ $("input[type='button']").click(function(){
            if (inputs[i].type == 'radio' && inputs[i].checked) {
                count++;
            }
+        }
+   if(count<10) {
+     alert("Stop kidding and get you work done. :(");
+     document.location.reload();
+   }
+   else {
+          alert("You have answered all the questions,,,yyoooooo :)");
+        }
