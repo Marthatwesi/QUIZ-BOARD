@@ -36,6 +36,7 @@ body{
 }
 h3{
 font-family: 'Righteous', cursive;
+color: maroon;
 }
 h1{
   font-family: 'Nosifer', cursive;
@@ -47,9 +48,11 @@ h1{
   font-size: 30px;
   font-family: 'Josefin Slab', serif;
 }
-}
+
 #submit {
   text-align: center;
 }
+
 #retake {
   text-align: center;
+}
