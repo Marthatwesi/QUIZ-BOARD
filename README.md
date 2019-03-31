@@ -15,11 +15,11 @@ This Website is a platform where student-members of geeks club at Green-hills Ac
 ## Known Bugs
 * It has no issue as of now, everything works as expected. Please let me know if you run into any at the provided contacts below
 
-###Setup/Installation requirements
+### Setup/Installation requirements
     * If you have git Use this command git  clonehttps://github.com/Marthatwesi/QUIZ-BOARD.git to clone the    project.
     * Open index.html via your web browser.
     https://marthatwesi.github.io/QUIZ-BOARD/
-###Live Demo
+### Live Demo
     To view the page click on the link below
 
 ## Technologies Used
