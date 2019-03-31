@@ -6,7 +6,7 @@ body{
 }
 .container{
   margin-top: 10px;
-  margin-left: 180px; /* Same as the width of the sidebar */
+  margin-left: 150px; /* Same as the width of the sidebar */
   margin-right: 900px;
  padding: 0px 10px;
  opacity:0.8;
@@ -33,4 +33,7 @@ body{
 }
 .jumbotron{
   background-color:#F4C6A9;
+}
+h3{
+font-family: 'Righteous', cursive;
 }
