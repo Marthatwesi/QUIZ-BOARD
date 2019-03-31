@@ -33,3 +33,5 @@ $("input[type='button']").click(function(){
          for (var index = 0; index < arr2.length; index += 1) {
            total += arr2[index];
          }
+         //Display the total marks
+            document.getElementById('finalscore').innerHTML="you have scored " + total + "%";
