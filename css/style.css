@@ -32,11 +32,16 @@ body{
  indent:10;
 }
 .jumbotron{
-  background-color:#7C9DA6;
+  background-color:#FDD4AF;
 }
 h3{
 font-family: 'Righteous', cursive;
-color: maroon;
+color: #CF5B13;
+}
+h2{
+  text-decoration: underline;
+  color: #668D97;
+  font-family: 'Bungee Inline', cursive;
 }
 h1{
   font-family: 'Nosifer', cursive;
