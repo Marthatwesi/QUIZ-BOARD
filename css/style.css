@@ -1,3 +1,4 @@
+
 body{
   background-image: url(https://data.whicdn.com/images/21023727/original.gif);
   background-size: cover;
@@ -9,7 +10,7 @@ body{
   margin-left: 150px; /* Same as the width of the sidebar */
   margin-right: 900px;
  padding: 0px 10px;
- opacity:0.8;
+ opacity:0.7;
  align-self: center;
 }
 #progressbar  {

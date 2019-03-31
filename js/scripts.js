@@ -1,3 +1,4 @@
+//back end logic
 $(document).ready(function(){
 $("input[type='button']").click(function(){
 //array for storing name ie quiz1 to quiz10 created
@@ -64,3 +65,8 @@ $("input[type='button']").click(function(){
 
      });
      });
+//user interface- logic
+ $(document).ready(function){
+   $("#appear").click(function()
+   $(".hide").slideDown();
+ });
