@@ -21,3 +21,10 @@ $("input[type='button']").click(function(){
    else {
           alert("You have answered all the questions,,,yyoooooo :)");
         }
+
+        //Create an array for storing the checked values
+         arr2=[];
+         for (var index = 0; index < arr.length; index += 1) {
+         var questions = parseInt($("input[name=" + arr[index] + "]:checked").val());
+         arr2.push(questions);
+         }
