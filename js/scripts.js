@@ -15,7 +15,7 @@ $("input[type='button']").click(function(){
            }
         }
    if(count<10) {
-     alert("Stop kidding and get you work done. :(");
+     alert("Stop kidding and get your work done. :(");
      document.location.reload();
    }
    else {
@@ -28,10 +28,39 @@ $("input[type='button']").click(function(){
          var questions = parseInt($("input[name=" + arr[index] + "]:checked").val());
          arr2.push(questions);
          }
-         //total of the checked values collected
+        //total of the checked values collected
          var total = 0;
          for (var index = 0; index < arr2.length; index += 1) {
            total += arr2[index];
          }
-         //Display the total marks
+       //Display the total marks
             document.getElementById('finalscore').innerHTML="you have scored " + total + "%";
+
+      //excellent, fair and poor grading
+       if(total >= 80) {
+         document.getElementById('message').innerHTML="Conggssssss!!!!!!";
+       }
+       else if (total >= 50 && total < 80) {
+         document.getElementById('message').innerHTML="Fairly done";
+       }
+       else {
+         document.getElementById('message').innerHTML="Please rebound the test";
+       }
+
+
+      });
+      });
+
+      // scrolldown bar
+     $(document).ready(function(){
+     $(window).scroll(function() {
+       var a = $(window).scrollTop();//shows position of the scroll in pixels
+       var b = $(document).height();//full height of doc
+       var c = $(window).height();//window height
+       scrollPercent = (a / (b - c)) * 100;
+       var position = scrollPercent;
+
+       $("#progressbar").attr('value', position); //setting the value of the progressbar
+
+     });
+     });
