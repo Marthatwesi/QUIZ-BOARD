@@ -10,7 +10,7 @@ body{
   margin-left: 150px; /* Same as the width of the sidebar */
   margin-right: 900px;
  padding: 0px 10px;
- opacity:0.7;
+ opacity:0.6;
  align-self: center;
 }
 #progressbar  {
@@ -33,7 +33,7 @@ body{
  indent:10;
 }
 .jumbotron{
-  background-color:#B9BD91;
+  background-color:#BD6A448;
 }
 h3{
 font-family: 'Righteous', cursive;
