@@ -62,6 +62,6 @@ $("input[type='button']").click(function(){
        var position = scrollPercent;
 
        $("#progressbar").attr('value', position); //setting the value of the progressbar
-
+       $(event).preventDefault();
      });
      });
