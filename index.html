@@ -21,7 +21,7 @@
     <br><br><br><br>
     <strong>Your progress:</strong>
     <progress class="progress md-progress" id="progressbar" value="0" max="100"></progress>
-    <br><br>
+    <br><br><br>
     <strong>Your score:</strong>
     <p id="finalscore"></p>
     <p id="message"></p>
@@ -32,92 +32,96 @@
       <h2>The Geeks club Quiz</h2>
       <p class="intro">Hey there, We are excited to tell you that we are almost at the end of our JavaScript Course.You will have to take part in this Quiz to comfirm that you have fully understood what was taught and you qualify to get a verified
         certificate fromGreen-Hills Academy.</p>
-      
+
     </div>
-    <div class="hide">
       <form name="quizform" id="quiz">
         <div class="jumbotron">
-          <div class="quiz1" id="quizone">
-            <h3>Q1. Listed below are the examples of Programming languages, except?</h3>
-            <label><input type="radio" name="quiz1" value="0" required> JavaScript</label><br>
-            <label><input type="radio" name="quiz1" value="10" required> html</label><br>
-            <label><input type="radio" name="quiz1" value="0" required> Bootstrap</label><br>
-          </div><br>
-        </div>
-        <div class="jumbotron">
-          <div class="quiz2">
-            <h3>Q2. Which Organisation maintains Javascript?</h3>
-            <label><input type="radio" name="quiz2" value="0" required> BDD </label><br>
-            <label><input type="radio" name="quiz2" value="0" required> DRY</label><br>
-            <label><input type="radio" name="quiz2" value="10" required>EMCA</label><br>
-          </div><br>
-        </div>
-        <div class="jumbotron">
-          <div class="quiz3">
-            <h3>Q3. which method do you use to add content to an element from the top and as a child?</h3>
-            <label><input type="radio" name="quiz3" value="10" required>.prepend()</label><br>
-            <label><input type="radio" name="quiz3" value="0" required>.append()</label><br>
-            <label><input type="radio" name="quiz3" value="0" required>.before</label><br>
-          </div><br>
-        </div>
-        <div class="jumbotron">
-          <div class="quiz4">
-            <h3>Q4. Which of the following tags is used to make a list with numbers?</h3>
-            <label><input type="radio" name="quiz4" value="0" required>&lt;ul&gt;</label><br>
-            <label><input type="radio" name="quiz4" value="10" required>&lt;ol&gt;</label><br>
-            <label><input type="radio" name="quiz4" value="0" required>&lt;br&gt;</label><br>
-          </div><br>
-        </div>
-        <div class="jumbotron">
-          <div class="quiz5">
-            <h3>Q5.Which of the following is a self-closing tag?</h3>
-            <label><input type="radio" name="quiz5" value="0" required>href</label><br>
-            <label><input type="radio" name="quiz5" value="10" required>img</label><br>
-            <label><input type="radio" name="quiz5" value="0" required>css</label><br>
-          </div><br>
-        </div>
-        <div class="jumbotron">
-          <div class="quiz6">
-            <h3>Q6. Which language do we use to style the appearance of our websites?</h3>
-            <label><input type="radio" name="quiz6" value="0" required>Javascript</label><br>
-            <label><input type="radio" name="quiz6" value="0" required>html</label><br>
-            <label><input type="radio" name="quiz6" value="10" required>css</label><br>
-          </div><br>
-        </div>
-        <div class="jumbotron">
-          <div class="quiz7">
-            <h3>Q7. Give an example of an html attribute?</h3>
-            <label><input type="radio" name="quiz7" value="10" required>alt</label><br>
-            <label><input type="radio" name="quiz7" value="0" required>jumbotron</label><br>
-            <label><input type="radio" name="quiz7" value="0" required>forms</label><br>
-          </div><br>
-        </div>
-        <div class="jumbotron">
-          <div class="quiz8">
-            <h3>Q8.Which part of the html file is the link for the css file placed?</h3>
-            <label><input type="radio" name="quiz8" value="0" required>footer</label><br>
-            <label><input type="radio" name="quiz8" value="10" required>head</label><br>
-            <label><input type="radio" name="quiz8" value="0" required>body</label><br>
-          </div><br>
-        </div>
-        <div class="jumbotron">
-          <div class="quiz9">
-            <h3>Q9. Bootstraps was originally created by twitter to act as a template for all their webpages</h3>
-            <label><input type="radio" name="quiz9" value="10" required>True</label><br>
-            <label><input type="radio" name="quiz9" value="0" required>False</label><br>
-            <label><input type="radio" name="quiz9" value="0" required>Both</label><br>
-          </div><br>
-        </div>
-        <div class="jumbotron">
-          <div class="quiz10">
-            <h3>Q10.What do we call elements that are nested within other elements?</h3>
-            <label><input type="radio" name="quiz10" value="10" required>block elements</label><br>
-            <label><input type="radio" name="quiz10" value="0" required>nested elements</label><br>
-            <label><input type="radio" name="quiz10" value="0" required>inline elements</label><br>
-          </div><br>
-          <p id="submit"><input type="button" class="btn btn-primary" value="Submit Quiz"></p>
-          <p id="retake"><a href="index.html"><button type="button" class="btn btn-danger" name="button">Retake Test</button></a></p>
-        </div>
+            Name:<input type="text" id="name" name="firstname" value="">
+            Date of Test: <input type="date" name="date" value="">
+            Email: <input type="text" name="email" value="">
+          </div>
+            <div class="jumbotron">
+              <div class="quiz1" id="quizone">
+                <h3>Q1. Listed below are the examples of Programming languages, except?</h3>
+                <label><input type="radio" name="quiz1" value="0" required> JavaScript</label><br>
+                <label><input type="radio" name="quiz1" value="10" required> html</label><br>
+                <label><input type="radio" name="quiz1" value="0" required> Bootstrap</label><br>
+              </div><br>
+            </div>
+            <div class="jumbotron">
+              <div class="quiz2">
+                <h3>Q2. Which Organisation maintains Javascript?</h3>
+                <label><input type="radio" name="quiz2" value="0" required> BDD </label><br>
+                <label><input type="radio" name="quiz2" value="0" required> DRY</label><br>
+                <label><input type="radio" name="quiz2" value="10" required>EMCA</label><br>
+              </div><br>
+            </div>
+            <div class="jumbotron">
+              <div class="quiz3">
+                <h3>Q3. which method do you use to add content to an element from the top and as a child?</h3>
+                <label><input type="radio" name="quiz3" value="10" required>.prepend()</label><br>
+                <label><input type="radio" name="quiz3" value="0" required>.append()</label><br>
+                <label><input type="radio" name="quiz3" value="0" required>.before</label><br>
+              </div><br>
+            </div>
+            <div class="jumbotron">
+              <div class="quiz4">
+                <h3>Q4. Which of the following tags is used to make a list with numbers?</h3>
+                <label><input type="radio" name="quiz4" value="0" required>&lt;ul&gt;</label><br>
+                <label><input type="radio" name="quiz4" value="10" required>&lt;ol&gt;</label><br>
+                <label><input type="radio" name="quiz4" value="0" required>&lt;br&gt;</label><br>
+              </div><br>
+            </div>
+            <div class="jumbotron">
+              <div class="quiz5">
+                <h3>Q5.Which of the following is a self-closing tag?</h3>
+                <label><input type="radio" name="quiz5" value="0" required>href</label><br>
+                <label><input type="radio" name="quiz5" value="10" required>img</label><br>
+                <label><input type="radio" name="quiz5" value="0" required>css</label><br>
+              </div><br>
+            </div>
+            <div class="jumbotron">
+              <div class="quiz6">
+                <h3>Q6. Which language do we use to style the appearance of our websites?</h3>
+                <label><input type="radio" name="quiz6" value="0" required>Javascript</label><br>
+                <label><input type="radio" name="quiz6" value="0" required>html</label><br>
+                <label><input type="radio" name="quiz6" value="10" required>css</label><br>
+              </div><br>
+            </div>
+            <div class="jumbotron">
+              <div class="quiz7">
+                <h3>Q7. Give an example of an html attribute?</h3>
+                <label><input type="radio" name="quiz7" value="10" required>alt</label><br>
+                <label><input type="radio" name="quiz7" value="0" required>jumbotron</label><br>
+                <label><input type="radio" name="quiz7" value="0" required>forms</label><br>
+              </div><br>
+            </div>
+            <div class="jumbotron">
+              <div class="quiz8">
+                <h3>Q8.Which part of the html file is the link for the css file placed?</h3>
+                <label><input type="radio" name="quiz8" value="0" required>footer</label><br>
+                <label><input type="radio" name="quiz8" value="10" required>head</label><br>
+                <label><input type="radio" name="quiz8" value="0" required>body</label><br>
+              </div><br>
+            </div>
+            <div class="jumbotron">
+              <div class="quiz9">
+                <h3>Q9. Bootstraps was originally created by twitter to act as a template for all their webpages</h3>
+                <label><input type="radio" name="quiz9" value="10" required>True</label><br>
+                <label><input type="radio" name="quiz9" value="0" required>False</label><br>
+                <label><input type="radio" name="quiz9" value="0" required>Both</label><br>
+              </div><br>
+            </div>
+            <div class="jumbotron">
+              <div class="quiz10">
+                <h3>Q10.What do we call elements that are nested within other elements?</h3>
+                <label><input type="radio" name="quiz10" value="10" required>block elements</label><br>
+                <label><input type="radio" name="quiz10" value="0" required>nested elements</label><br>
+                <label><input type="radio" name="quiz10" value="0" required>inline elements</label><br>
+              </div><br>
+              <p id="submit"><input type="button" class="btn btn-primary" value="Submit Quiz"></p>
+              <p id="retake"><a href="index.html"><button type="button" class="btn btn-danger" name="button">Retake Test</button></a></p>
+            </div>
       </form>
       <footer>
         <div class="card-group">
@@ -143,7 +147,6 @@
           </div>
         </div>
     </div>
-    <div>
 </body>
 
 </html>
