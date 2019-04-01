@@ -85,3 +85,67 @@ img{
   font-size: 14px;
   text-align: left;
 }
+
+/* ....course section */
+ .main-body{
+   background-image: url(https://image.freepik.com/free-photo/beach-background-with-beach-elements-copyspace_23-2147836084.jpg);
+ }
+ .narrow{
+   widith:75%;
+   margin:1.5rem auto;
+   padding-top: 2rem;
+ }
+.narrow h1{
+  font-size: 2.4rem;
+}
+.btn-secondary{
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  border-color: blue;
+  background-color: #1EBBAA3;
+  color: white;
+}
+.btn-secondary:hover;
+.btn-secondary:focus{
+  border-color: #189582;
+  background-color: #189582;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========bootstrapbreak points*/
+Extra small devices(portrait phones, less than 576px)
+No media query.
+
+small (sm) devices (landscape phones, 576px and above)
+@media (min-width: 576px) {
+
+}
+ Medium (md) devices (tables, 768px and up)
+@media (min-width: 768px) {
+
+}
+
+Large (lg) devices (desktops, 992px and above)
+@media (min-widith:992px) {
+
+}
+ Extra (xl) large devices (large desktops, 1200px and up)
+ @media (min-width: 1200px){
+
+ }
+============*/
