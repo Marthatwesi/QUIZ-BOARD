@@ -65,8 +65,3 @@ $("input[type='button']").click(function(){
 
      });
      });
-//user interface- logic
- $(document).ready(function){
-   $("#appear").click(function()
-   $(".hide").slideDown();
- });
