@@ -39,6 +39,9 @@ h3{
 font-family: 'Righteous', cursive;
 color: #CF5B13;
 }
+.hide{
+  display: none;
+}
 h2{
   text-decoration: underline;
   color: #668D97;
@@ -81,3 +84,4 @@ img{
   padding-right: 7px;
   font-size: 14px;
   text-align: left;
+}
